@@ -13,8 +13,8 @@ int main() {
     clock_t start, end;
     double time_taken;
 
-    printf("=== Jeu de calcul ===\n");
-    printf("Tu as %d questions. Réponds vite !\n\n", NBR_QUESTIONS);
+    printf("=== Math Game ===\n");
+    printf("You have %d questions. Answer quickly!\n\n", NBR_QUESTIONS);
     
     srand(time(NULL)); 
 
@@ -34,7 +34,7 @@ int main() {
         printf("| Question %d      |\n", i);
         printf("| %d %c %d = ?    |\n", a, op, b);
         printf("+----------------+\n");
-        printf("Réponse : ");
+        printf("Answer: ");
         scanf("%d", &answer);
 
         int correct;
@@ -45,19 +45,19 @@ int main() {
         }
 
         if (answer == correct) {
-            printf("✅ Correct !\n\n");
+            printf("✅ Correct!\n\n");
             score++;
         } else {
-            printf("❌ Faux ! La bonne réponse était %d\n\n", correct);
+            printf("❌ Wrong! The correct answer was %d\n\n", correct);
         }
     }
 
     end = clock();
     time_taken = (double)(end - start) / CLOCKS_PER_SEC;
 
-    printf("=== Résultat ===\n");
-    printf("Score : %d/%d\n", score, NBR_QUESTIONS);
-    printf("Temps total : %.2f secondes\n", time_taken);
+    printf("=== Results ===\n");
+    printf("Score: %d/%d\n", score, NBR_QUESTIONS);
+    printf("Total time: %.2f seconds\n", time_taken);
 
     return 0;
 }
