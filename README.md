@@ -5,20 +5,31 @@
 [![Etat](https://img.shields.io/badge/Etat-Beta-orange)]()
 
 ## Description
-Petit jeu où le joueur doit résoudre des opérations le plus rapidement possible.  
-Les chiffres sont affichés dans des carrés et un timer mesure le temps.
+A small game where the player must solve math operations as quickly as possible.  
+Numbers are displayed in squares and a timer measures the time.
 
 ## Fonctionnalités
-- Génération d’opérations aléatoires
-- Timer pour mesurer la rapidité
-- Affichage du score final
-- Interface simple et claire
+- Random math operations generation
+- Timer to measure speed
+- Display final score
+- Simple and clear interface
 ## Installation et utilisation
-1. clone this project 
-2. Compile the game -'gcc -o calcule calcule.c'
-3. Run the game -./calcule
+1. **Clone the project :**
+```bash
+git clone https://github.com/Jiane77/jeux.git
+cd jeux
+``` 
+2. **Compile the game:**
+```bash 
+gcc -o calcule calcule.c
+``` 
+3. **Run the game :**
+```bash 
+./calcule
+``` 
+## Screenshot 
 ![Capture du jeu](images/image.png)
-## auteur
+## Author
 Jiane77
 
 
