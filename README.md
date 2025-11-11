@@ -28,7 +28,7 @@ gcc -o calcule calcule.c
 ./calcule
 ``` 
 ## Screenshot 
-![Capture du jeu](images/image.png)
+![Capture du jeu](images/game.png)
 ## Author
 Jiane77
 
